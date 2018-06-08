@@ -1,0 +1,28 @@
+README
+
+Joel Saindon
+CS4760
+Proj2
+
+Files that should exist in directory
+	Makefile
+	main.c
+	This README file
+	.git directory with log of commits
+
+Getting Started
+	to run the make command, type "make proj2" This will run the compile commands on the main.c file.
+	Next, to run the program, type "./proj2"
+
+What it does
+	While this program is being submitted unfinished, I feel like my main.c file at least has the decent pieces crucial to this project; save for the logs and critical section pieces.
+	Most of this program has the building blocks figured out for spreading the program into producer and consumer files/execs and using shared memory
+
+Main issues:
+	Still had trouble getting fork() to work correctly (hopefully resolved, or at least partially)
+	Sank a lot of time into getting the beginnings of signal handling(again, partially resolved)
+	Sank a lot of hours into working through learning shared memory functions and workings, ended up with a few orphaned/unremovable entries in ipcs. Thankfully they're somewhat small and hopefully will be cleaned out before this project is graded!
+
+Unimplemented parts of this project:
+	Logs
+	Critical section
